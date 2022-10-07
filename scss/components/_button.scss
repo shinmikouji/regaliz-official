@@ -1,0 +1,13 @@
+.c-button {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 50px;
+  background: $main-color;
+  color: $palette-white;
+  line-height: 50px;
+  font-size: 15px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 40px;
+}

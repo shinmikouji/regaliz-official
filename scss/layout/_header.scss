@@ -1,0 +1,54 @@
+.l-header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: $palette-white;
+  padding: 25px 60px;
+}
+
+.l-header__logo {
+  margin-right: auto;
+}
+
+.l-header__nav {
+  margin-right: auto;
+
+  .l-header__navList {
+    display: flex;
+    width: 100%;
+  }
+
+  .l-header__navItems {
+    position: relative;
+  }
+
+  .l-header__navItems:not(:first-child) {
+    margin-left: 40px;
+  }
+}
+
+.l-header__navItemsLink {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: $palette-black;
+  letter-spacing: 0.1em;
+}
+
+.l-header__nav--ja {
+  display: block;
+  font-size: 10px;
+  font-weight: 700;
+  color: $palette-gray;
+}
+
+.l-header__nav--en {
+  margin-top: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+}
+
+.l-header__button {
+  width: 200px;
+}
