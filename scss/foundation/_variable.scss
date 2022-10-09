@@ -1,5 +1,18 @@
 /*-- color --*/
 $palette-primary: #01a4bc;
+$palette-secondary: #95adfc;
 $palette-black: #201e1f;
 $palette-gray: #b8b8b8;
 $palette-white: #fff;
+
+/*-- border-color --*/
+$palette-borderGray: #eaeaea;
+
+/*-- background-color --*/
+$palette-background-gray: rgba(100, 149, 190, 0.05);
+
+/*-- box-shadow --*/
+$box-shadow-01: 0 0 0 1px rgb(0 0 0 / 2%), 0 8px 16px 0 rgb(0 0 0 / 10%);
+
+/*-- width --*/
+$pc-width: 1120px;

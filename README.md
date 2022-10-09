@@ -1,1 +1,1 @@
-# regaliz-official
+# 合同会社REGALIZのホームページです

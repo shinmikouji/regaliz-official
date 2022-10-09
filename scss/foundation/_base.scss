@@ -1,0 +1,6 @@
+@use "../foundation/variable" as g;
+
+html {
+  font-family: 'Heebo', "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro","メイリオ", "Meiryo", "游ゴシック", Yu Gothic, YuGothic, sans-serif;
+  color: g.$palette-black;
+}

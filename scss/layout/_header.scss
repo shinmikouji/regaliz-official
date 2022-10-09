@@ -1,11 +1,13 @@
 @use "../foundation/variable" as g;
 
 .l-header {
+  position: fixed;
   display: flex;
   align-items: center;
   width: 100%;
   background-color: g.$palette-white;
-  padding: 25px 60px;
+  padding: 20px 60px;
+  z-index: 2;
 }
 
 .l-header__logo {
@@ -53,4 +55,8 @@
 
 .l-header__button {
   width: 200px;
+}
+
+.l-header--borderBottom {
+  box-shadow: g.$box-shadow-01;
 }

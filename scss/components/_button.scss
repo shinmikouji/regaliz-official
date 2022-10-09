@@ -1,26 +1,18 @@
 @use "../foundation/variable" as g;
+@use "../foundation/mixin" as m;
 
 .c-button__primary {
-  display: block;
+  @include m.button(g.$palette-white, g.$palette-primary);
   position: relative;
-  width: 100%;
-  height: 50px;
-  background: g.$palette-primary;
-  color: g.$palette-white;
-  line-height: 50px;
   font-size: 15px;
   font-weight: 700;
   text-align: center;
-  border-radius: 40px;
 }
 
 .c-button__secondary {
-  display: block;
-  width: 100%;
-  height: 50px;
-  color: g.$palette-primary;
-  line-height: 50px;
-  background: transparent;
-  border: 1px solid g.$palette-primary;
-  border-radius: 40px;
+  @include m.button(g.$palette-primary, transparent, 1px solid g.$palette-primary);
+}
+
+.c-button__thirdly {
+  @include m.button(g.$palette-gray, g.$palette-white, 1px solid g.$palette-gray);
 }

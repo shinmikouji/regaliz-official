@@ -1,0 +1,39 @@
+@use "../foundation/variable" as g;
+
+.c-contact {
+  position: relative;
+  margin-bottom: 64px;
+  padding: 40px 64px;
+  background-image: linear-gradient(
+    101deg,
+    g.$palette-primary,
+    g.$palette-secondary
+  );
+  box-shadow: g.$box-shadow-01;
+}
+
+.c-contacy__textArea {
+  color: g.$palette-white;
+}
+
+.c-contact__title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 56px;
+}
+
+.c-contact__text {
+  width: 600px;
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.87;
+}
+
+.c-contact__button {
+  position: absolute;
+  width: 200px;
+  text-align: center;
+  top: 40px;
+  right: 64px;
+}

@@ -1,0 +1,19 @@
+@use "../foundation/variable" as g;
+@use "../foundation/mixin" as m;
+
+.c-display--pc {
+  @include m.mq(sp) {
+    display: none;
+  }
+}
+
+.c-display--sp {
+  @include m.mq(pc) {
+    display: none;
+  }
+}
+
+.c-contentWidth {
+  max-width: g.$pc-width;
+  margin: 0 auto;
+}
