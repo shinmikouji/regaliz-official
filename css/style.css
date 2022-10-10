@@ -136,11 +136,25 @@ html {
 
 /* hero */
 .l-hero {
+  position: relative;
   padding-top: 90px;
 }
 .l-hero img {
   width: 100vw;
   height: calc(100vh - 90px);
+}
+
+.l-hero_title {
+  position: absolute;
+  top: 50%;
+  left: 7%;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.3);
+}
+.l-hero_title span {
+  color: #54ccc5;
 }
 
 /* top-company */
@@ -172,7 +186,6 @@ html {
 
 .p-topService__list {
   display: flex;
-  align-items: center;
   margin-top: 40px;
 }
 
@@ -201,6 +214,8 @@ html {
 
 .p-topService__itemsText {
   margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.7em;
 }
 
 /* top-news */

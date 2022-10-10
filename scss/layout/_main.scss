@@ -2,10 +2,24 @@
 
 /* hero */
 .l-hero {
+  position: relative;
   padding-top: 90px;
   img {
     width: 100vw;
     height: calc(100vh - 90px);
+  }
+}
+
+.l-hero_title {
+  position: absolute;
+  top: 50%;
+  left: 7%;
+  color: g.$palette-white;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 3px 3px 1px rgba(0,0,0,0.3);
+  span {
+    color: g.$palette-thirdly;
   }
 }
 
@@ -38,7 +52,6 @@
 
 .p-topService__list {
   display: flex;
-  align-items: center;
   margin-top: 40px;
 }
 
@@ -68,6 +81,8 @@
 
 .p-topService__itemsText {
   margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.7em;
 }
 
 /* top-news */
