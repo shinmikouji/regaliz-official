@@ -168,6 +168,10 @@ html {
   margin-top: 56px;
   font-size: 25px;
   font-weight: 600;
+  letter-spacing: 0.1em;
+}
+.p-topCompany__text span {
+  color: #54ccc5;
 }
 
 .p-topCompany__buton {

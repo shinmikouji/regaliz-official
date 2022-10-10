@@ -34,6 +34,10 @@
   margin-top: 56px;
   font-size: 25px;
   font-weight: 600;
+  letter-spacing: 0.1em;
+  span {
+    color: g.$palette-thirdly;
+  }
 }
 
 .p-topCompany__buton {
