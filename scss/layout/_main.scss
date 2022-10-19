@@ -1,9 +1,13 @@
 @use "../foundation/variable" as g;
 
 /* hero */
+.l-main {
+  padding-top: 90px;
+}
+
+/* hero */
 .l-hero {
   position: relative;
-  padding-top: 90px;
   img {
     width: 100vw;
     height: calc(100vh - 90px);

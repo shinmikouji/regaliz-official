@@ -2,7 +2,6 @@ jQuery(function ($) {
   const pageTop = $('#page-top');
   $(window).scroll(function () {
     const scroll	= $(this).scrollTop();
-    console.log(scroll);
     if(scroll > 90) {
       $(".l-header").addClass('l-header--borderBottom');
       pageTop.fadeIn(500);

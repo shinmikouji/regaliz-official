@@ -1,1 +1,64 @@
 @use "../foundation/variable" as g;
+
+.p-comapny--order1 {
+  order: 1;
+}
+
+.p-comapny--order2 {
+  order: 2;
+}
+
+.p-company {
+  position: relative;
+  padding: 80px 100px;
+  background: g.$palette-background-gray;
+}
+
+.p-company__inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.p-company__contentBox {
+  width: 50%;
+}
+
+.p-company__content {
+  color: g.$palette-primary;
+  padding-left: 30px;
+}
+
+.p-company__title {
+  font-size: 45px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.p-company__text {
+
+}
+
+.p-company__catch {
+  position: absolute;
+  margin-left: 200px;
+  bottom: -137px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 160px;
+  color: g.$palette-white;
+  letter-spacing: 0.06rem;
+  vertical-align: bottom;
+}
+
+.p-company__imageArea {
+  position: static;
+  width: 50%;
+  order: 1;
+}
+
+.p-comapany__image {
+  img {
+    width: 100%;
+  }
+}

@@ -1,0 +1,19 @@
+@use "../foundation/variable" as g;
+
+.c-page__mv {
+  position: relative;
+  height: 260px;
+  overflow: hidden;
+  background-color: #1e73be;
+  background-image: url(https://www.wp-tm.com/demo/wp-content/uploads/2021/02/pagettl-1.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.c-page__mvTitle {
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

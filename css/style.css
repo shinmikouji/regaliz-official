@@ -135,9 +135,13 @@ html {
 }
 
 /* hero */
+.l-main {
+  padding-top: 90px;
+}
+
+/* hero */
 .l-hero {
   position: relative;
-  padding-top: 90px;
 }
 .l-hero img {
   width: 100vw;
@@ -372,7 +376,7 @@ html {
   letter-spacing: 0.1em;
   font-size: 12px;
   font-weight: 700;
-  color: #01a4bc;
+  color: #95adfc;
 }
 
 @media screen and (max-width: 767px) {
@@ -426,4 +430,79 @@ html {
   text-align: center;
   top: 40px;
   right: 64px;
+}
+
+.c-page__mv {
+  position: relative;
+  height: 260px;
+  overflow: hidden;
+  background-color: #1e73be;
+  background-image: url(https://www.wp-tm.com/demo/wp-content/uploads/2021/02/pagettl-1.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.c-page__mvTitle {
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.p-comapny--order1 {
+  order: 1;
+}
+
+.p-comapny--order2 {
+  order: 2;
+}
+
+.p-company {
+  position: relative;
+  padding: 80px 100px;
+  background: rgba(100, 149, 190, 0.05);
+}
+
+.p-company__inner {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.p-company__contentBox {
+  width: 50%;
+}
+
+.p-company__content {
+  color: #01a4bc;
+  padding-left: 30px;
+}
+
+.p-company__title {
+  font-size: 45px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.p-company__catch {
+  position: absolute;
+  margin-left: 200px;
+  bottom: -137px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 160px;
+  color: #fff;
+  letter-spacing: 0.06rem;
+  vertical-align: bottom;
+}
+
+.p-company__imageArea {
+  position: static;
+  width: 50%;
+  order: 1;
+}
+
+.p-comapany__image img {
+  width: 100%;
 }/*# sourceMappingURL=style.css.map */
