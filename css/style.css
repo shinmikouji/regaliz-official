@@ -70,6 +70,11 @@ svg {
   max-width: 100%;
 }
 
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
 html {
   font-family: "Heebo", "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", "游ゴシック", Yu Gothic, YuGothic, sans-serif;
   color: #201e1f;
@@ -458,10 +463,30 @@ html {
   order: 2;
 }
 
+.p-company--backGray {
+  background: rgba(100, 149, 190, 0.05);
+}
+
+.p-company--white {
+  color: #fff;
+}
+
+.p-company--left {
+  padding-left: 30px;
+}
+
+.p-company--right {
+  padding-right: 30px;
+}
+
+.p-comapany__catch--middle {
+  margin-left: -200px !important;
+  color: rgba(100, 149, 190, 0.05);
+}
+
 .p-company {
   position: relative;
   padding: 80px 100px;
-  background: rgba(100, 149, 190, 0.05);
 }
 
 .p-company__inner {
@@ -476,7 +501,6 @@ html {
 
 .p-company__content {
   color: #01a4bc;
-  padding-left: 30px;
 }
 
 .p-company__title {
@@ -492,7 +516,6 @@ html {
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 160px;
-  color: #fff;
   letter-spacing: 0.06rem;
   vertical-align: bottom;
 }
@@ -505,4 +528,26 @@ html {
 
 .p-comapany__image img {
   width: 100%;
+}
+
+.p-company__table {
+  padding: 80px 0;
+}
+
+.p-company__tableInner {
+  width: 100%;
+}
+.p-company__tableInner th, .p-company__tableInner td {
+  border: 1px solid #ccc;
+}
+.p-company__tableInner th {
+  width: 40%;
+  padding: 10px 15px;
+  background-color: rgba(100, 149, 190, 0.05);
+  text-align: left;
+  font-weight: normal;
+}
+.p-company__tableInner td {
+  width: 60%;
+  padding: 10px 15px;
 }/*# sourceMappingURL=style.css.map */

@@ -8,10 +8,30 @@
   order: 2;
 }
 
+.p-company--backGray {
+  background: g.$palette-background-gray;
+}
+
+.p-company--white {
+  color: g.$palette-white;
+}
+
+.p-company--left {
+  padding-left: 30px;
+}
+
+.p-company--right {
+  padding-right: 30px;
+}
+
+.p-comapany__catch--middle {
+  margin-left: -200px !important;
+  color: g.$palette-background-gray;
+}
+
 .p-company {
   position: relative;
   padding: 80px 100px;
-  background: g.$palette-background-gray;
 }
 
 .p-company__inner {
@@ -26,17 +46,12 @@
 
 .p-company__content {
   color: g.$palette-primary;
-  padding-left: 30px;
 }
 
 .p-company__title {
   font-size: 45px;
   font-weight: bold;
   text-align: left;
-}
-
-.p-company__text {
-
 }
 
 .p-company__catch {
@@ -46,7 +61,6 @@
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 160px;
-  color: g.$palette-white;
   letter-spacing: 0.06rem;
   vertical-align: bottom;
 }
@@ -60,5 +74,30 @@
 .p-comapany__image {
   img {
     width: 100%;
+  }
+}
+
+.p-company__table {
+  padding: 80px 0;
+}
+
+.p-company__tableInner {
+  width: 100%;
+
+  th, td {
+    border: 1px solid #ccc;
+  }
+
+  th {
+    width: 40%;
+    padding: 10px 15px;
+    background-color: g.$palette-background-gray;
+    text-align: left;
+    font-weight: normal;
+  }
+
+  td {
+    width: 60%;
+    padding: 10px 15px;
   }
 }
