@@ -1,0 +1,59 @@
+@use "../foundation/variable" as g;
+
+.p-news {
+  padding: 80px 100px;
+}
+
+.p-news__list {
+  border-top: 1px solid g.$palette-borderGray;
+}
+
+.p-news__items {
+  line-height: 1.8;
+  border-bottom: 1px solid g.$palette-borderGray;
+  dl {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    transition: all 0.5s ease;
+  }
+
+  dt {
+    width: 10%;
+  }
+
+  dd {
+    width: 90%;
+    position: relative;
+    padding-left: 20px;
+  }
+}
+
+.p-news__itemsImage {
+
+}
+
+.p-news__cat {
+  display: inline-block;
+
+  span {
+    background-color: g.$palette-thirdly;
+    color: g.$palette-white;
+    padding: 2px 10px;
+  }
+}
+
+.p-news__date {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 12px;
+  margin-left: 15px;
+  color: g.$palette-gray;
+}
+
+.p-news__title {
+  display: block;
+  margin-top: 5px;
+  font-weight: 700;
+  font-size: 18px;
+}
